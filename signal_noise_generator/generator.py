@@ -68,7 +68,7 @@ def get_rand_parameters():
     params['freq'] = [params['freq'][i] / 100 for i in range(num)]
     return params
 
-if __name__ == "__main__":
+def main()
     # Recorded values
     measurements = {'speed': [],
                     'F_B_shock': [],
@@ -89,3 +89,7 @@ if __name__ == "__main__":
     plt.ylabel('Voltage (V)')
     plt.xlabel('Time (s)')
     plt.show()
+
+if __name__ == "__main__":
+    signal = np. 
+    
